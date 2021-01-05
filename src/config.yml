@@ -1,0 +1,38 @@
+baseurl: "https://www.jsonfeed.io/"
+title: "JSONFeed.io"
+theme: launch-theme
+
+googleAnalytics: ""
+
+enableEmoji: true
+
+params:
+  description: "JSON Feed is a modern take on web syndication. Instead of sticking with XML as RSS and Atom use, it uses the modern day dev's best friend, JSON."
+  tagline: "JSON Feed is the modern alternative for RSS and Atom - a JSON based web syndication format."
+  mailchimpURL: ""
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "About"
+      url: "/about/"
+      weight: 5
+    - name: "SDKs"
+      url: "/sdk/"
+      weight: 10
+    - name: "Implement"
+      url: "/implement/"
+      weight: 15
+    - name: "Supported Readers"
+      url: "/readers/"
+      weight: 20
+    - name: "Showcase"
+      url: "/showcase/"
+      weight: 25
+    - name: "Contact Us"
+      url: "/contact/"
+      weight: 30
